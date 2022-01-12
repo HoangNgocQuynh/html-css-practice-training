@@ -9,11 +9,9 @@
 
 .body1{
   background: url(/practice-one/IMG/hero_credit_Zeyn_Afuang\ \(1\).png);
-  Width:1440px;
-  Height:810,23px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-repeat: no-repeat;
-  background-color: #f2f2f2;
+  background-size:cover;
 
 }
 
@@ -61,6 +59,7 @@
 #nav .nav3{
   display: flex;
   list-style-type: none;
+  
 }
 
 .nav3 li:hover{
@@ -130,18 +129,82 @@
 
 .earth{
   position: absolute;
-  width: 1440px;
-  height: 120px;
+  width: 1520px;
+  height: 135px;
   left: 0px;
-  top: 680px;
+  top: 720px;
   background-color: #fbf8f6;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
-  'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  padding: 40px 280px 40px 280px;
+  padding: 50px 350px 35px 280px;
 }
+.we{
+  color: #0E6248;
+  position: absolute;
+  padding: 735px 0px 0px 200px;
+}
+
+.cont1{
+  position: absolute;
+  padding: 760px 0px 80px 200px;
+}
+
+.but1{
+  position: absolute;
+  padding: 12px 20px;
+  border-radius: 4px;
+  color:rgb(255, 255, 255);
+  border: none;
+  background-color: #0E6248;
+  margin-top: 755px;
+  margin-left: 1130px;
+  font-size: 18px;
+}
+.div{
+  position: absolute;
+  display: flex;
+  margin-top: 860px;
+  margin-left: 230px;
+  padding-right: 100px;
+}
+
+.div fieldset{
+  border: 1px solid gray;
+  border-radius: 6px;
+  width: 310px;
+  height: 450px;
+  padding: 0px 0px 0px 30px;
+  margin-right: 40px;
+}
+.div fieldset legend img{
+  border-radius: 6px;
+  text-align: right;
+  width: 110%;
+  height: 50%;
+}
+.div p{
+  padding: 0px 20px 30px 30px;
+}
+.div input{
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.897);
+  background-color:#0E6248;
+  margin: 0px 0px 0px 70px;
+  border: none;
+  font-size: 18px;
+}
+
+.table2{
+  position: absolute;
+  background-color: #fbf8f6;
+  padding: 50px 115px 35px 130px;
+  top: 1660px;
+  left: 210px;
+  margin-right: 100px;
+}
+
 
