@@ -21,6 +21,7 @@
   border: 1.5px solid #0E6248;
   border-radius: 100%;
 }
+
 #fab1{
   color:#0E6248;
   background-color: #ffffff ;
@@ -58,8 +59,7 @@
 
 #nav .nav3{
   display: flex;
-  list-style-type: none;
-  
+  list-style-type: none; 
 }
 
 .nav3 li:hover{
@@ -141,6 +141,7 @@
   text-align: center;
   padding: 50px 350px 35px 280px;
 }
+
 .we{
   color: #0E6248;
   position: absolute;
@@ -150,6 +151,7 @@
 .cont1{
   position: absolute;
   padding: 760px 0px 80px 200px;
+  width: 800px;
 }
 
 .but1{
@@ -163,6 +165,7 @@
   margin-left: 1130px;
   font-size: 18px;
 }
+
 .div{
   position: absolute;
   display: flex;
@@ -185,9 +188,11 @@
   width: 110%;
   height: 50%;
 }
+
 .div p{
   padding: 0px 20px 30px 30px;
 }
+
 .div input{
   padding: 10px 20px;
   border-radius: 4px;
@@ -286,6 +291,7 @@
   margin-left: 1060px;
   font-size: 18px;
 }
+
 .div1-2{
   position: absolute;
   display: flex;
@@ -306,6 +312,7 @@
 .div1-2 p{
   padding: 0px 20px 30px 30px;
 }
+
 .div1-2  input{
   padding: 10px 20px;
   border-radius: 4px;
@@ -350,7 +357,8 @@
 }
 
 .help input{
-  margin-top: 20px;}
+  margin-top: 20px;
+}
 
 .help #text{
   padding: 10px 105px 10px 15px;
@@ -366,6 +374,7 @@
   font-weight: bold;
   border-radius: 0px 6px 6px 0px;
 }
+
 .help #submit:hover{
  background-color: #fbf8f6;
 }
