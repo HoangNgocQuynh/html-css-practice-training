@@ -1,27 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/practice-one/css/style.css">
-  <title>Document</title>
-</head>
-<body>
-  <!--------------- Header ----------------->
-  <header id="header">
-    <nav class="nav">
-      <div class="nav-1">
-        <p>HOFMANN</p>
-      </div>
-      <ul class="nav-2">
-        <li> <a href="nav-2-miss">MISSON</a> </li>
-        <li> <a href="nav-2-serv">SERVICES</a></li>
-        <li> <a href="nav-2-about">ABOUT</a></li>
-        <li> <a class="t_a_t">TAKE A TOUR</a></li>
-      </ul>
-    </nav>
-      <!------------------------------------ header body ------------------------------------------>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="normalize/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+  </head>
+  
+
+  <body>
+    <!--===================================== header ==========================================-->
+    <header id="header" class="header">
+      <!------------------------------------------ header_nav ------------------------------------------>
+      <nav class="nav">
+        <div class="nav_logo">
+          <p>HOFMANN</p>
+        </div>
+        <ul class="nav_link">
+          <li><a href="#Our_team">MISSION</a></li>
+          <li><a href="#Advantages">SERVICES</a></li>
+          <li><a href="#Create_An_Account">ABOUT</a></li>
+          <button class="Take_a_tour"><a href="#footer">TAKE A TOUR</a></button>
+        </ul>
+      </nav>
+      <!---------------------------------------- header_body -------------------------------------- -->
       <div class="header_body">
         <div class="header_title">
           <p>Choosing The Right Boutique Hotel For You</p><br>
@@ -40,15 +47,14 @@
         </div>
       </div>
     </header>
-    <main id="main">
+    <main id="main" class="main">
     <!--================================= Section:Our_team ======================================-->
-      <section id="Our_team">
+      <section id="Our_team" class="Our_team">
         <div class="container">
           <h1 class="title">Our Team</h1>
-        <!------------------------------------ images_1 ------------------------------------------>
           <div class="images_1">
               <div class="image">
-                  <img src="./assets/img/person.png">
+                  <img src="./img/people/person.png">
                   <div>
                       <h3>Craig Todd</h3>
                       <h4>CEO</h4>
@@ -58,7 +64,7 @@
                   </div>
               </div>
               <div class="image">
-                  <img src="./assets/img/person (1).png">
+                  <img src="./img/people/person (1).png">
                   <div>
                       <h3>Vera Hopkins</h3>
                       <h4>UX Lead</h4>
@@ -66,7 +72,7 @@
                   </div>
               </div>
               <div class="image">
-                  <img src="./assets/img/person (2).png">
+                  <img src="./img/people/person (2).png">
                   <div>
                       <h3>Jennie Graham</h3>
                       <h4>UX/UI Designer</h4>
@@ -74,72 +80,64 @@
                   </div>
               </div>
           </div>
-        <!------------------------------------ images_2 ------------------------------------------>
           <div class="images_2">
               <div class="image">
-                  <img src="./assets/img/person (3).png">
+                  <img src="./img/people/person (3).png">
                   <div>
-                      <h3>Craig Todd</h3>
-                      <h4>CEO</h4>
-                      <p>Like the majority of sales people,
-                      I visit a huge number of clients and 
-                      prospects every month</p>
+                      <h3>Eunice Wong</h3>
+                      <h4>Marketing consultant</h4>
+                      <p>Advertising Internet Online Opportunities To Explore</p>
                   </div>
               </div>
               <div class="image">
-                  <img src="./assets/img/person (4).png">
+                  <img src="./img/people/person (4).png">
                   <div>
-                      <h3>Vera Hopkins</h3>
-                      <h4>UX Lead</h4>
-                      <p>Differentiate Yourself And Attract More Attention Sales And Profits</p>
+                      <h3>Chase Meyer</h3>
+                      <h4>Front-end Developer</h4>
+                      <p>Search Engine Opomization And Advertising</p>
                   </div>
               </div>
               <div class="image">
-                  <img src="./assets/img/person (5).png">
+                  <img src="./img/people/person (5).png"">
                   <div>
-                      <h3>Jennie Graham</h3>
-                      <h4>UX/UI Designer</h4>
-                      <p>WordPress Version 2 0 3 Review</p>
+                      <h3>Johnny Vargas</h3>
+                      <h4>Back-end Devoloper</h4>
+                      <p>Maintain Your PC S Performance With PC Programs</p>
                   </div>
               </div>
           </div>
         </div>       
       </section>
     <!--============================== Section:Choose_Your_Plan =================================--> 
-      <section id="Choose_Your_Plan">
-      <!-- =============================== background:black =================================== -->
+      <section id="Choose_Your_Plan" class="Choose_Your_Plan">
         <h2>Choose Your Plan</h2>
-        <div class="container">
-        <!--------------------------------- purchase_silver --------------------------------------->  
+        <div class="container"> 
           <fieldset class="purchase_silver">
             <h3>SILVER</h3>
-            <span class="money"><p>$</p><p class="number">49</p></span>
+            <span class="price"><p>$</p><p class="number">49</p></span>
             <P>YEAR</P><br>
             <p>Personal Account<br>25 GB Discspace<br>50 Uploads per day</p><br>
             <button>PURCHASE</button>
           </fieldset>
-        <!--------------------------------- purchase_gold --------------------------------------->
           <fieldset class="purchase_gold">
             <h3>GOLD</h3>
-            <span class="money"><p>$</p><p class="number">99</p></span>
+            <span class="price"><p>$</p><p class="number">99</p></span>
             <P>YEAR</P><br>
             <p>Personal Account<br>50 GB Discspace<br>500 Uploads per day</p><br>
             <button>PURCHASE</button>
           </fieldset>
-        <!-------------------------------- purchase_platinum -------------------------------------->
           <fieldset class="purchase_platinum">
             <h3>PLATINUM</h3>
-            <span class="money"><p>$</p><p class="number">299</p></span>
+            <span class="price"><p>$</p><p class="number">299</p></span>
             <P>YEAR</P><br>
             <p>Personal Account<br>500 GB Discspace<br>Unlimited Uploads per day</p><br>
             <button>PURCHASE</button>
           </fieldset>
         </div>
-      <!-- =============================== background:white =================================== -->
         <div class="information">
           <button class="return fa-2x"><span>&lt;</span></button>
           <div class="information_main">
-            <img src="./assets/img/person (6).png"><br>
+            <img src="./img/people/person (6).png"><br>
             <div>
                 <h3>Ida Stephens — Noir Project</h3><br>                 
                 <p>“Conversations can be a tricky business. 
@@ -170,42 +168,153 @@
       </section>
 
     <!--================================= Section:Advantages ====================================-->
-      <section id="Advantages">
+      <section id="Advantages" class="Advantages">
         <h2>Advantages</h2><br>
-        <p>One more thing! Any time we start something new it is<br>
+        <p class="p_adv">One more thing! Any time we start something new it is
         exciting and we are very motivated and committed. </p><br>
         <div class="container">
-        <!--------------------------------- safe --------------------------------------->  
           <fieldset class="find_more">
             <h3>SECURE</h3><br>
-            <img src="./assets/img/safe.png" alt="safe"><br><br>
+            <img src="./img/icons/safe.png" alt="safe"><br><br>
             <p>YOUR DATA IS PROTECTED<br>
-            No matter how far along you are<br>in your sophistication as an<br>
+            No matter how far along you are in your sophistication as an
             amateur astronomer…</p><br>
             <button>FIND MORE</button>
           </fieldset>
-        <!--------------------------------- aesthetic ---------------------------------------> 
           <fieldset class="find_more">
             <h3>AESTHETIC</h3><br>
-            <img src="./assets/img/aesthetic.png" alt="aesthetic"><br><br>
+            <img src="./img/icons/aesthetic.png" alt="aesthetic"><br><br>
             <p>UNIQUE DESIGN<br>
-            Acres of Diamonds… you've<br>read the famous story, or at<br>
+            Acres of Diamonds… you've<br>read the famous story, or at
             least had it related to you.</p><br>
             <button>FIND MORE</button>
           </fieldset>
-        <!--------------------------------- neat-icon ---------------------------------------> 
           <fieldset class="find_more">
             <h3>NEAT</h3><br>
-            <img src="./assets/img/neat-icon.png" alt="neat-icon"><br><br>
+            <img src="./img/icons/neat-icon.png" alt="neat-icon"><br><br>
             <p>ACCURATE IN DETAILS<br>
-              Some days a motivational quote<br>can provide a quick pick-me-up.</p><br>
+              Some days a motivational quote can provide a quick pick-me-up.</p><br>
             <button>FIND MORE</button>
           </fieldset>
         </div>
       </section>
+
+    <!--================================= Section:Places ====================================-->
+      <section id="Places" class="Places">
+        <h2>PLACES</h2><br>
+        <ul>
+          <li>SAN FRANCISCO</li>
+          <li>SOUTH LILIANA</li>
+          <li>BLICKVIEW</li>
+          <li>NEW RAVEN</li>
+        </ul>
+        <fieldset class="images_places">
+          <img src="./img/pictures/pic_1.png" alt="pic_1">
+          <img src="./img/pictures/pic_2.png" alt="pic_2">
+          <img src="./img/pictures/pic_3.png" alt="pic_3">
+          <img src="./img/pictures/pic_4.png" alt="pic_4">
+          <img src="./img/pictures/pic_5.png" alt="pic_5">
+          <img src="./img/pictures/pic_6.png" alt="pic_6">
+        </fieldset>
+      </section>
+
+    <!--============================ Section:Create_An_Account ===============================-->
+      <section id="Create_An_Account" class="Create_An_Account">
+        <p>Create An Account</p>
+        <form action="#">
+          <h3 class="sign_up">SIGN UP</h3>
+          <input type="text" placeholder="Email"><br><br>
+          <input type="password" placeholder="Password"><br><br>
+          <input type="password" placeholder="Comfirm Password"><br><br>
+          <a href="#">Already Have an account?</a><br><br>
+          <input class="submit" type="submit" value="SIGN UP">
+        </form>
+      </section>
+
+    <!--================================= Section:Contact ====================================-->
+      <section id="Contact" class="Contact">
+        <h2>Contact Us</h2><br><br>
+        <div class="contain">
+          <div class="header_contact">
+            <p>Get in touch</p><br>
+            <ul class="location">
+              <li>2300 W Arbutus Dr Citrus Springs,<br> FL 34434, USA</li>
+            </ul><br>
+            <ul class="mail">
+              <li>contact@hofmannui.net</li>           
+            </ul><br>
+            <ul class="phone">
+              <li>793-891-7938<br>512-915-5628<br>952-775-6021</li>
+            </ul>
+          </div>
+          <div class="main_contact">
+            <form action="#">
+              <label for="name">
+                Name<br><br><input id="name" type="text" placeholder="Your name">
+              </label><br>
+              <label for="mail">
+                Email<br><br><input id="mail" type="text" placeholder="Your email">
+              </label><br>
+              <label for="message">
+                Message<br><br><textarea id="message" placeholder="Your message"></textarea>
+              </label><br>
+              <input class="submit" type="submit" value="SUBMIT">
+            </form>
+          </div>
+          <div class="footer_contact">
+            <p class="tittle">Credit</p><br>
+            <p>In order to discuss the general<br>
+            function of the logo, we must firstly<br>
+            identify and define the environment<br>
+            where this will have to fulfill its<br>
+            function.</p><br><br>
+            <p class="tittle">Follow</p><br>
+            <a href="https://www.pinterest.com/"><img src="./img/icons/Pinterest.png" alt="Pinterest"></a>
+            <a href="https://www.linkedin.com/"><img src="./img/icons/linkedin.png" alt="linkedin"> </a>
+            <img src="./img/icons/google-plus.png" alt="google-plus"><br><br> 
+            <a href="https://www.instagram.com/"><img src="./img/icons/instagram.png" alt="instagram"></a>
+            <a href="https://www.facebook.com/"><img src="./img/icons/facebook.png" alt="facebook"></a>
+            <a href="https://twitter.com/home"><img src="./img/icons/twitter.png" alt="twitter"></a>
+          </div>
+        </div>
+      </section>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3489.0285217611263!2d-82.47562408498203!3d29.016145482268048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e86f549a688213%3A0x63d4ce5f3136f389!2s2300%20W%20Arbutus%20Dr%2C%20Citrus%20Springs%2C%20FL%2034434%2C%20Hoa%20K%E1%BB%B3!5e0!3m2!1svi!2s!4v1647084706456!5m2!1svi!2s" 
+       width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </main>
+    <!--================================= footer ====================================-->
+    <footer id="footer" class="footer">
+      <div class="footer_introduction">
+        <div>
+          <p>CONTACT US</p><br>
+          2300 W Arbutus<br>Dr Citrus Springs,<br>FL 34434, USA
+        </div>
+        <div><br><br>+235<br>793-891-7938<br>contact@hofmannui.net</div>
+        <div>
+          <p>FOLLOW US</p><br>
+          <a href="https://www.pinterest.com/"><img src="./img/icons/Pinterest (1).png" alt="Pinterest"></a>
+          <a href="https://twitter.com/home"><img src="./img/icons/twitter (1).png" alt="Twitter"></a>
+          <a href="https://www.facebook.com/"><img src="./img/icons/facebook (1).png" alt="Facebook"></a>
+        </div>
+        <div>
+          <p>ABOUT US</p><br>
+          Hoffman UI Kit was made to help you quickly<br>
+          create beautiful layouts of responsive websites.
+        </div>
+      </div><br>
+      <hr><br>
+      <div class="footer_link">
+        <div>© 2016 Hofmann UI Kit</div>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">SERVICES</a></li>
+          <li><a href="#">TEAM</a></li>
+          <li><a href="#">PORTFOLIO</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+        <div>
+          <a href="#"><img src="./img/pictures/top.png" alt="top"></a>
+        </div>
+      </div>
+    </footer>
   </body>
-  </header>  
-  
-</body>
 </html>
