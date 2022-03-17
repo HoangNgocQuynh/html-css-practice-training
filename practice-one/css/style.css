@@ -145,6 +145,10 @@
   text-align: left;
 }
 
+.Our_team .image img:hover {
+  transform: scale(1.2);
+}
+
 /*======================================= images_1 ============================================*/
 
 .Our_team .images_1 {
@@ -163,10 +167,6 @@
   height: 80px;
   margin-bottom: 10px;
   margin-right: 10px;
-}
-
-.Our_team .images_1 .image img:active {
-  transform: scale(3.0);
 }
 
 /*======================================= images_2 ============================================*/
@@ -190,9 +190,6 @@
   margin-right: 10px;
 }
 
-.Our_team .images_2 .image img:active {
-  transform: scale(3.0);
-}
 /* -----------------------------------------------------------------------------------------------*\
                                         # SECTION: Choose_Your_Plan
 \*----------------------------------------------------------------------------------------------- */
@@ -219,11 +216,7 @@
   width: 280px;
   text-align: center;
 }
-
-.Choose_Your_Plan fieldset:active {
-  transform: scale(1.2);
-} 
-
+ 
 .Choose_Your_Plan .price { 
   margin: 10px 0;
   margin-left: 80px;
@@ -232,8 +225,12 @@
   margin: 10px 0px;
 }
 
+.Choose_Your_Plan .price .dollar{
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
 .Choose_Your_Plan .price .number {
-  margin-top: -10px;
   font-size: 48px;
   font-weight: bold;
 }
@@ -247,6 +244,10 @@
 .Choose_Your_Plan .container button:hover {
   background-color: rgb(121, 141, 141);
   color: #4b4b4b;
+}
+
+.Choose_Your_Plan .container button:active {
+  transform: scale(1.2);
 }
 
 .Choose_Your_Plan .purchase_silver {
@@ -377,10 +378,6 @@ color: #ebcb80;
   text-align: center;
 }
 
-.Advantages fieldset:active {
-  transform: scale(1.2);
-} 
-
 .Advantages .container button {
   background-color: #ebcb80;
   padding: 5px 40px;
@@ -392,6 +389,10 @@ color: #ebcb80;
   background-color: rgb(103, 105, 105);
   color: #4b4b4b;
 }
+
+.Advantages .container button:active {
+  transform: scale(1.2);
+} 
 
 .Advantages .find_more {
   background: black;
@@ -434,7 +435,7 @@ color: #ebcb80;
 }
 
 .Places fieldset img:active {
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
 /* -----------------------------------------------------------------------------------------------*\
@@ -491,7 +492,7 @@ color: #ebcb80;
 
 .Create_An_Account .submit:hover {
   transform: scale(1.2);
-  background-color: aquamarine;
+  background-color: rgb(128, 127, 127);
 }
 
 .Create_An_Account .submit:active {
@@ -504,7 +505,7 @@ color: #ebcb80;
                                         # SECTION: Contact
 \*----------------------------------------------------------------------------------------------- */
 
-.Contact {
+.Contact_us {
   font-size: 14px;
   background-color: whitesmoke;
   color: #4b4b4b;
@@ -512,49 +513,49 @@ color: #ebcb80;
   text-align: center;
 }
 
-.Contact h2 {
+.Contact_us h2 {
   font-size: 27px;
 }
 
-.Contact p,ul {
+.Contact_us p,ul {
   text-align: left;
 }
 
-.Contact .contain {
+.Contact_us .contain {
   display: flex;
   justify-content: space-around;
   text-align: left;
 }
 
-.Contact.header_contact p {
+.Contact_us .header_contact p {
   font-size: 20px;
 } 
 
-.Contact .header_contact ul {
+.Contact_us .header_contact ul {
   margin-left: 20px;
 }
-.Contact .header_contact ul li {
+.Contact_us .header_contact ul li {
   padding-left: 20px;
 }
 
-.Contact .header_contact .location {
+.Contact_us .header_contact .location {
   list-style-image: url("../img/icons/location.png");
 }
 
-.Contact .header_contact .mail {
+.Contact_us .header_contact .mail {
   list-style-image: url("../img/icons/mail.png");
 }
 
-.Contact .header_contact .phone {
+.Contact_us .header_contact .phone {
   list-style-image: url("../img/icons/phone.png");
   list-style-position: outside;
 }
 
-.Contact .main_contact {
+.Contact_us .main_contact {
   margin: 0px 40px;
 }
 
-.Contact .main_contact form {
+.Contact_us .main_contact form {
   width: 550px;
   height: 500px;
   padding: 50px;
@@ -566,20 +567,20 @@ color: #ebcb80;
   justify-content: space-between;
 }
 
-.Contact .Contact .main_contact form input {
+.Contact_us .Contact .main_contact form input {
   padding: 5px 10px;
   border: 1px solid black;
   border-radius: 3px;
 }
 
-.Contact .main_contact form textarea {
+.Contact_us .main_contact form textarea {
   width: 430px;
   height: 200px;
   border: 1px solid #4b4b4b;
   border-radius: 3px;
 }
 
-.Contact .main_contact .submit {
+.Contact_us .main_contact .submit {
   margin: 0 auto;
   padding: 2px 50px;
   border: none;
@@ -587,16 +588,16 @@ color: #ebcb80;
   background-color: #ebcb80;
 }
 
-.Contact .main_contact .submit:hover {
+.Contact_us .main_contact .submit:hover {
   border: 1px solid #4b4b4b;
   background-color: transparent;
 }
 
-.Contact .footer_contact .tittle {
+.Contact_us .footer_contact .tittle {
   font-size: 20px;
 }
 
-.Contact .footer_contact img {
+.Contact_us .footer_contact img {
   margin: 0 10px;
 }
 
