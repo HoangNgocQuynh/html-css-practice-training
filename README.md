@@ -1,4 +1,8 @@
 # practice-training
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1f8cd3ac70e92d18428c81bd51627a31d4baae06
 Attendance: https://docs.google.com/spreadsheets/d/10bB26TQ_25oqq0ouOf8vS2TSIreqGtlqYmUJqVoFdB0/edit?usp=sharing
 
 Figma: https://www.figma.com/file/9BpUVt1O4em8nCP2Gy57TR/Hofmann-UI-Kit---Page-Templates?node-id=0%3A1
@@ -9,5 +13,8 @@ Repositories: https://github.com/HoangNgocQuynh?tab=repositories
 
 Branches: https://github.com/HoangNgocQuynh/html-css-practice-training/branches
 
+<<<<<<< HEAD
 Bash: https://github.com/HoangNgocQuynh/html-css-practice-training.git
 
+=======
+>>>>>>> 1f8cd3ac70e92d18428c81bd51627a31d4baae06
