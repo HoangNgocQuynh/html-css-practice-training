@@ -9,106 +9,116 @@
 /* -----------------------------------------------------------------------------------------------*\
                                        # HEADER | 
 \*----------------------------------------------------------------------------------------------- */
+body {
+  overflow-x: hidden;
+}
 
-.header {
-  background: url('../img/background/city.png');
-  background-color: #ebcb80;
-  background-attachment:local;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 320px;
-  padding-top: 50px;
+.header .Header-content {
+  position: relative;
+  line-height: 0!important;
 }
 
 /*============================================== nav =============================================*/
 
 .header .nav {
-  top: 0;
-  position:absolute;
   width: 100%;
   color: aliceblue;
   padding: 30px 80px;
   display: flex;
   justify-content: space-between;
-  background-color: #4b4b4bce;
+  background-color: #4b4b4b;
 }
 
-.header .nav .nav_logo p {
+.header .nav .nav-logo p {
   font-weight: bold;
   font-size: 30px;
   color:#ebcb80;
 }
 
-.header .nav .nav_link {
+.header .nav .nav-link {
   display: flex;
 }
-.header .nav .nav_link li {
+.header .nav .nav-link li {
   margin-top: 10px;
   list-style: none;
   margin-right: 20px;
 }
 
-.header .nav .nav_link li:hover{
+.header .nav .nav-link li:hover{
   border-bottom: 2px solid white;
 }
 
-.header .nav .nav_link a {
+.header .nav .nav-link a {
   text-decoration: none;
   color:white;
 }
 
-.header .nav .nav_link .Take_a_tour {
+.header .nav .nav-link .Take-a-tour {
   padding: 10px 30px;
   border: 1px solid white;
   background-color: #4b4b4b;
   border-radius: 30px;
 }
 
-.header .nav .nav_link .Take_a_tour:hover {
+.header .nav .nav-link .Take-a-tour:hover {
   border: 2px solid white;
 }
 
-/*======================================= header body ============================================*/
+/*======================================= header-body ============================================*/
 
-.header .header_body {
+.header .header-body {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(235,203,128, .5);
   color:#4b4b4b;
-  margin-top: 150px;
+  /* margin-top: 150px; */
   text-align: center;
 }
 
-.header .header_body .header_title {
+.header .header-body .header-body-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header .header-body .header-title {
   font-size: 14px;
   margin-bottom: 32px;
 }
 
-.header .header_body .header_title p {
+.header .header-body .header-title p {
   font-weight: bold;
   font-size: 34px;
 }
 
-.header .header_body .header_button {
+.header .header-body .header-button {
   margin-bottom: 50px;
 }
 
-.header .header_body .header_button .text {
+.header .header-body .header-button .text {
   padding: 8px 50px 8px 15px;
   border: 1px solid black;
   border-radius: 3px;
   background-color: transparent;
   margin-right: 20px;
 }
-.header .header_body .header_button .submit {
+
+.header .header-body .header-button .submit {
   padding: 8px 50px;
   border: 1.5px solid black;
   border-radius: 30px;
   background-color: transparent;
 }
 
-.header .header_body .header_button .submit:hover {
+.header .header-body .header-button .submit:hover {
   background-color: #4b4b4b;
   color: aliceblue;
 }
-.header .header_body .icon ul li {
+.header .header-body .icon ul li {
   display: inline-block;
   margin: 0px 30px;
   padding: 20px 20px;
@@ -116,74 +126,74 @@
   background: #4b4b4b;
 }
 
-.header .header_body .icon ul {
+.header .header-body .icon ul {
   text-align: center;
 }
 
-.header .header_body .icon ul li .fa-plane , .fa-wallet , .fa-briefcase {
+.header .header-body .icon ul li .fa-plane , .fa-wallet , .fa-briefcase {
   background-color: #4b4b4b;
   color:white;
 }
-.header .header_body .icon ul li:hover {
+.header .header-body .icon ul li:hover {
   transform: scale(1.2);
 }
 /* -----------------------------------------------------------------------------------------------*\
-                                        # SECTION: Our_team
+                                        # SECTION: Our-team
 \*----------------------------------------------------------------------------------------------- */
 
-.Our_team .container {
+.Our-team .container {
   color: #4b4b4b;
   margin: 50px auto;
   padding: 0 160px;
 }
 
-.Our_team .container h1 {
+.Our-team .container h1 {
   text-align: center;
 }
-.Our_team .container p {
+.Our-team .container p {
   width: 250px;
   text-align: left;
 }
 
-.Our_team .image img:hover {
+.Our-team .image img:hover {
   transform: scale(1.2);
 }
 
-/*======================================= images_1 ============================================*/
+/*======================================= images-1 ============================================*/
 
-.Our_team .images_1 {
+.Our-team .images-1 {
   display: flex;
   justify-content: space-around;
   padding: 10px;
 }
 
-.Our_team .images_1 .image {
+.Our-team .images-1 .image {
   display: flex;
   text-align:left;
   padding: 10px;}
 
-.Our_team .images_1 .image img {
+.Our-team .images-1 .image img {
   width: 80px;
   height: 80px;
   margin-bottom: 10px;
   margin-right: 10px;
 }
 
-/*======================================= images_2 ============================================*/
+/*======================================= images-2 ============================================*/
 
-.Our_team .images_2 {
+.Our-team .images-2 {
   display: flex;
   justify-content: space-around;
   padding:  30px;
 }
 
-.Our_team .images_2 .image {
+.Our-team .images-2 .image {
   display: flex;
   text-align:left;
   padding: 10px;
 }
 
-.Our_team .images_2 .image img {
+.Our-team .images-2 .image img {
   width: 80px;
   height: 80px;
   margin-bottom: 10px;
@@ -191,24 +201,25 @@
 }
 
 /* -----------------------------------------------------------------------------------------------*\
-                                        # SECTION: Choose_Your_Plan
+                                        # SECTION: Choose-Your-Plan
 \*----------------------------------------------------------------------------------------------- */
-.Choose_Your_Plan {
+.Choose-Your-Plan {
   padding-top: 30px;
-  background: #4b4b4b;
+  background: #4B4B4B;
   color: aliceblue;
-}
-
-.Choose_Your_Plan h2 {
   text-align: center;
 }
 
-.Choose_Your_Plan .container {
-  margin: 0 250px;
-  display: flex;
+.Choose-Your-Plan h2 {
+  text-align: center;
 }
 
-.Choose_Your_Plan fieldset {
+.Choose-Your-Plan .container {
+  margin: 0 250px;
+  display: inline-flex;
+}
+
+.Choose-Your-Plan fieldset {
   border: none;
   border-radius: 10px;
   padding: 20px 20px;
@@ -217,7 +228,7 @@
   text-align: center;
 }
  
-.Choose_Your_Plan .price { 
+.Choose-Your-Plan .price { 
   margin: 10px 0;
   margin-left: 80px;
   display: flex;
@@ -225,63 +236,65 @@
   margin: 10px 0px;
 }
 
-.Choose_Your_Plan .price .dollar{
+.Choose-Your-Plan .price .dollar{
   margin-top: 20px;
   margin-right: 5px;
 }
 
-.Choose_Your_Plan .price .number {
+.Choose-Your-Plan .price .number {
   font-size: 48px;
   font-weight: bold;
 }
 
-.Choose_Your_Plan .container button {
+.Choose-Your-Plan .container button {
   padding: 5px 40px;
   border: none;
   border-radius: 30px;
 }
 
-.Choose_Your_Plan .container button:hover {
+.Choose-Your-Plan .container button:hover {
   background-color: rgb(121, 141, 141);
   color: #4b4b4b;
 }
 
-.Choose_Your_Plan .container button:active {
+.Choose-Your-Plan .container button:active {
   transform: scale(1.2);
 }
 
-.Choose_Your_Plan .purchase_silver {
-  background: #4b4b4b;
+.Choose-Your-Plan .purchase-silver {
+  background: linear-gradient(224.09deg, rgba(255, 255, 255, 0.7) 5.13%, rgba(255, 255, 255, 7e-05) 90.88%);
   background-color: rgb(255, 255, 255,0.12);
   box-shadow: -1px 2px 10px 0px black;
 }
 
-.Choose_Your_Plan .purchase_gold {
+.Choose-Your-Plan .purchase-gold {
+  background: linear-gradient(225deg, rgba(255, 255, 255, 0.496575) 0%, rgba(255, 255, 255, 0.0001) 100%);
   color: #4b4b4b;
   background-color:#ebcb80;
+  background-blend-mode: soft-light;
   box-shadow: -1px 2px 10px 0px black;
 }
 
-.Choose_Your_Plan .purchase_platinum {
-  background: black;
+.Choose-Your-Plan .purchase-platinum {
+  background:linear-gradient(223.49deg, rgba(0, 0, 0, 0.0001) 4.85%, rgba(0, 0, 0, 0.401127) 96.5%);
   background-color: rgb(255, 255, 255,0.0005);
   box-shadow: -1px 2px 10px 0px black;
 }
 
-.Choose_Your_Plan .purchase_silver h3, .purchase_platinum h3 {
+.Choose-Your-Plan .purchase-silver h3, .purchase-platinum h3 {
   color:#ebcb80;
 }
 
-.Choose_Your_Plan .purchase_silver button, .purchase_platinum button {
+.Choose-Your-Plan .purchase-silver button, .purchase-platinum button {
   background-color: #ebcb80;
 }
 
-.Choose_Your_Plan .purchase_gold button {
+.Choose-Your-Plan .purchase-gold button {
   background-color:#4b4b4b;
   color: aliceblue;
 }
 
-.Choose_Your_Plan .information {
+.Choose-Your-Plan .information {
   padding: 30px 30px;
   background-color: aliceblue;
   color: #4b4b4b;
@@ -289,32 +302,32 @@
   justify-content: space-around;
 }
 
-.Choose_Your_Plan .information_main {
+.Choose-Your-Plan .information-main {
   width: 300px;
   text-align: center;
 }
 
-.Choose_Your_Plan .list {
+.Choose-Your-Plan .list {
   display: flex;
   justify-content: center;
   margin-left: 40px;
 }
 
-.Choose_Your_Plan .information_main ul {
+.Choose-Your-Plan .information-main ul {
   list-style: circle;
   display: flex;
 }
 
-.Choose_Your_Plan .information_main ul li {
+.Choose-Your-Plan .information-main ul li {
   margin: 0 20px;
   font-size: 200%;
 }
 
-.Choose_Your_Plan .list .disc {
+.Choose-Your-Plan .list .disc {
   list-style: disc;
 }
 
-.Choose_Your_Plan .return, .next {
+.Choose-Your-Plan .return, .next {
   width: 50px;
   height: 50px;
   border: 1px solid #4b4b4b;
@@ -325,16 +338,16 @@
   align-self: center;
 }
 
-.Choose_Your_Plan .return:hover, .next:hover {
+.Choose-Your-Plan .return:hover, .next:hover {
   background-color: #4b4b4b;
   color: aliceblue;
 }
 
-.Choose_Your_Plan .return:active, .next:active {
+.Choose-Your-Plan .return:active, .next:active {
   transform: scale(1.2);
 }
 
-.Choose_Your_Plan .information img:hover {
+.Choose-Your-Plan .information img:hover {
   transform: scale(1.2);
 }
 
@@ -342,13 +355,14 @@
                                         # SECTION: Advantages
 \*----------------------------------------------------------------------------------------------- */
 .Advantages {
+  text-align: center;
   padding: 30px 30px;
   background: #4b4b4b;
   color: aliceblue;
 }
 
-.Advantages .p_adv{
- margin-left: 520px;
+.Advantages .p-adv{
+ margin:0 auto;
  width: 400px;
 }
 
@@ -365,8 +379,9 @@ color: #ebcb80;
 }
 
 .Advantages .container {
+  display: inline-flex;
   margin: 0 250px;
-  display: flex;
+  
 }
 
 .Advantages fieldset {
@@ -394,10 +409,10 @@ color: #ebcb80;
   transform: scale(1.2);
 } 
 
-.Advantages .find_more {
-  background: black;
-  background-color: rgb(255, 255, 255,0.0005);
-  box-shadow: -1px 2px 10px 0px black;
+.Advantages .find-more {
+  background: linear-gradient(223.49deg, rgba(0, 0, 0, 0.0001) 4.85%, rgba(0, 0, 0, 0.401127) 96.5%);
+  background-blend-mode: multiply;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.800);
 }
 
 /* -----------------------------------------------------------------------------------------------*\
@@ -426,7 +441,7 @@ color: #ebcb80;
   text-align: center;
   width: 1200px;
   height: 650px;
-  margin-left: 150px;
+  margin: 0 auto;
   border: none;
 }
 
@@ -439,25 +454,25 @@ color: #ebcb80;
 }
 
 /* -----------------------------------------------------------------------------------------------*\
-                                        # SECTION: Create_An_Account
+                                        # SECTION: Create-An-Account
 \*----------------------------------------------------------------------------------------------- */
 
-.Create_An_Account {
+.Create-An-Account {
   text-align: center;
-  background: url("../img/background/mountain.png");
+  background: url("../images/backgrounds/mountain.png");
   background-attachment:local;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 50px 50px;
 }
 
-.Create_An_Account p {
+.Create-An-Account p {
   text-align: center;
   font-size: 36px;
   color: aliceblue;
 }
 
-.Create_An_Account form {
+.Create-An-Account form {
   margin: 0 auto;
   margin-top: 30px;
   width: 300px;
@@ -467,22 +482,22 @@ color: #ebcb80;
   border-radius: 3px;
 }
 
-.Create_An_Account h3, a {
+.Create-An-Account h3, a {
   font-weight: 500;
   margin: 20px 0px;
   color: #ebcb80;
 }
-.Create_An_Account .sign_up {
+.Create-An-Account .sign-up {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.Create_An_Account input {
+.Create-An-Account input {
   padding: 5px 10px;
   border: 1px solid black;
   border-radius: 3px;
 }
 
-.Create_An_Account .submit {
+.Create-An-Account .submit {
   padding: 10px 40px;
   border: none;
   border-radius: 30px;
@@ -490,12 +505,12 @@ color: #ebcb80;
   color: #4b4b4b;
 }
 
-.Create_An_Account .submit:hover {
+.Create-An-Account .submit:hover {
   transform: scale(1.2);
   background-color: rgb(128, 127, 127);
 }
 
-.Create_An_Account .submit:active {
+.Create-An-Account .submit:active {
   background-color: transparent;
   border: 1px solid whitesmoke;
   color: aliceblue;
@@ -505,7 +520,7 @@ color: #ebcb80;
                                         # SECTION: Contact
 \*----------------------------------------------------------------------------------------------- */
 
-.Contact_us {
+.Contact-us {
   font-size: 14px;
   background-color: whitesmoke;
   color: #4b4b4b;
@@ -513,49 +528,49 @@ color: #ebcb80;
   text-align: center;
 }
 
-.Contact_us h2 {
+.Contact-us h2 {
   font-size: 27px;
 }
 
-.Contact_us p,ul {
+.Contact-us p,ul {
   text-align: left;
 }
 
-.Contact_us .contain {
+.Contact-us .contain {
   display: flex;
   justify-content: space-around;
   text-align: left;
 }
 
-.Contact_us .header_contact p {
+.Contact-us .header-contact p {
   font-size: 20px;
 } 
 
-.Contact_us .header_contact ul {
+.Contact-us .header-contact ul {
   margin-left: 20px;
 }
-.Contact_us .header_contact ul li {
+.Contact-us .header-contact ul li {
   padding-left: 20px;
 }
 
-.Contact_us .header_contact .location {
-  list-style-image: url("../img/icons/location.png");
+.Contact-us .header-contact .location {
+  list-style-image: url("../images/icons/location.png");
 }
 
-.Contact_us .header_contact .mail {
-  list-style-image: url("../img/icons/mail.png");
+.Contact-us .header-contact .mail {
+  list-style-image: url("../images/icons/mail.png");
 }
 
-.Contact_us .header_contact .phone {
-  list-style-image: url("../img/icons/phone.png");
+.Contact-us .header-contact .phone {
+  list-style-image: url("../images/icons/phone.png");
   list-style-position: outside;
 }
 
-.Contact_us .main_contact {
+.Contact-us .main-contact {
   margin: 0px 40px;
 }
 
-.Contact_us .main_contact form {
+.Contact-us .main-contact form {
   width: 550px;
   height: 500px;
   padding: 50px;
@@ -567,20 +582,20 @@ color: #ebcb80;
   justify-content: space-between;
 }
 
-.Contact_us .Contact .main_contact form input {
+.Contact-us .Contact .main-contact form input {
   padding: 5px 10px;
   border: 1px solid black;
   border-radius: 3px;
 }
 
-.Contact_us .main_contact form textarea {
+.Contact-us .main-contact form textarea {
   width: 430px;
   height: 200px;
   border: 1px solid #4b4b4b;
   border-radius: 3px;
 }
 
-.Contact_us .main_contact .submit {
+.Contact-us .main-contact .submit {
   margin: 0 auto;
   padding: 2px 50px;
   border: none;
@@ -588,16 +603,16 @@ color: #ebcb80;
   background-color: #ebcb80;
 }
 
-.Contact_us .main_contact .submit:hover {
+.Contact-us .main-contact .submit:hover {
   border: 1px solid #4b4b4b;
   background-color: transparent;
 }
 
-.Contact_us .footer_contact .tittle {
+.Contact-us .footer-contact .tittle {
   font-size: 20px;
 }
 
-.Contact_us .footer_contact img {
+.Contact-us .footer-contact img {
   margin: 0 10px;
 }
 
@@ -610,46 +625,46 @@ color: #ebcb80;
   padding: 40px 80px 20px 80px;
 }
 
-.footer .footer_introduction {
+.footer .footer-introduction {
   display: flex;
   justify-content: space-between;
 }
 
-.footer .footer_introduction p {
+.footer .footer-introduction p {
   text-align: left;
   color: white;
   font-size: 18px;
 }
 
-.footer .footer_introduction img {
+.footer .footer-introduction img {
   width: 14%;
   height: 17%;
   margin-right: 20px;
 }
 
-.footer .footer_introduction div {
+.footer .footer-introduction div {
   font-size: 14px;
 }
 
-.footer .footer_link {
+.footer .footer-link {
   display: flex;
   justify-content: space-between;
 }
 
-.footer .footer_link ul {
+.footer .footer-link ul {
   display: flex;
   list-style: none;
 }
 
-.footer .footer_link ul li {
+.footer .footer-link ul li {
   margin: 0 10px;
   font-size: 16px;
 }
-.footer .footer_link ul a {
+.footer .footer-link ul a {
   text-decoration: none;
   color: white;
 }
 
-.footer .footer_link ul li:hover {
+.footer .footer-link ul li:hover {
   border-bottom: 2px solid white;
 }

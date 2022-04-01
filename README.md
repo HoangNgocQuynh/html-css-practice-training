@@ -9,3 +9,5 @@ Repositories: https://github.com/HoangNgocQuynh?tab=repositories
 
 Branches: https://github.com/HoangNgocQuynh/html-css-practice-training/branches
 
+Bash: https://github.com/HoangNgocQuynh/html-css-practice-training.git
+
