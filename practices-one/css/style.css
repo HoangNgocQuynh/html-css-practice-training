@@ -21,11 +21,12 @@ body {
 /*============================================== nav =============================================*/
 
 .header .nav {
-  width: 100%;
+  width: 1440px;
+  height: 156px;
   color: aliceblue;
-  padding: 30px 80px;
+  padding: 55px 160px;
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   background-color: #4b4b4b;
 }
 
@@ -37,6 +38,7 @@ body {
 
 .header .nav .nav-link {
   display: flex;
+  justify-content:space-between
 }
 .header .nav .nav-link li {
   margin-top: 10px;
@@ -67,7 +69,7 @@ body {
 /*======================================= header-body ============================================*/
 
 .header .header-body {
-  width: 100%;
+  width: 1440px;
   height: 100%;
   position: absolute;
   top: 0;
@@ -142,9 +144,9 @@ body {
 \*----------------------------------------------------------------------------------------------- */
 
 .Our-team .container {
+  width: 1440px;
   color: #4b4b4b;
-  margin: 50px auto;
-  padding: 0 160px;
+  padding: 54px 160px;
 }
 
 .Our-team .container h1 {
@@ -204,7 +206,8 @@ body {
                                         # SECTION: Choose-Your-Plan
 \*----------------------------------------------------------------------------------------------- */
 .Choose-Your-Plan {
-  padding-top: 30px;
+  width: 1440px;
+  height: 680px;
   background: #4B4B4B;
   color: aliceblue;
   text-align: center;
@@ -212,11 +215,14 @@ body {
 
 .Choose-Your-Plan h2 {
   text-align: center;
+  font-size: 44px;
+  padding-top: 68px;
 }
 
 .Choose-Your-Plan .container {
-  margin: 0 250px;
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
+  padding-top: 52px;
 }
 
 .Choose-Your-Plan fieldset {
@@ -294,7 +300,7 @@ body {
   color: aliceblue;
 }
 
-.Choose-Your-Plan .information {
+.Choose-Your-Plan-se .information {
   padding: 30px 30px;
   background-color: aliceblue;
   color: #4b4b4b;
@@ -302,32 +308,32 @@ body {
   justify-content: space-around;
 }
 
-.Choose-Your-Plan .information-main {
+.Choose-Your-Plan-se .information-main {
   width: 300px;
   text-align: center;
 }
 
-.Choose-Your-Plan .list {
+.Choose-Your-Plan-se .list {
   display: flex;
   justify-content: center;
   margin-left: 40px;
 }
 
-.Choose-Your-Plan .information-main ul {
+.Choose-Your-Plan-se .information-main ul {
   list-style: circle;
   display: flex;
 }
 
-.Choose-Your-Plan .information-main ul li {
+.Choose-Your-Plan-se .information-main ul li {
   margin: 0 20px;
   font-size: 200%;
 }
 
-.Choose-Your-Plan .list .disc {
+.Choose-Your-Plan-se .list .disc {
   list-style: disc;
 }
 
-.Choose-Your-Plan .return, .next {
+.Choose-Your-Plan-se .return, .next {
   width: 50px;
   height: 50px;
   border: 1px solid #4b4b4b;
@@ -338,18 +344,18 @@ body {
   align-self: center;
 }
 
-.Choose-Your-Plan .return:hover, .next:hover {
+.Choose-Your-Plan-se .return:hover, .next:hover {
   background-color: #4b4b4b;
   color: aliceblue;
 }
 
-.Choose-Your-Plan .return:active, .next:active {
+.Choose-Your-Plan-se .return:active, .next:active {
   transform: scale(1.2);
 }
 
-.Choose-Your-Plan .information img:hover {
+/* .Choose-Your-Plan-se .information img:hover {
   transform: scale(1.2);
-}
+} */
 
 /* -----------------------------------------------------------------------------------------------*\
                                         # SECTION: Advantages
@@ -379,9 +385,8 @@ color: #ebcb80;
 }
 
 .Advantages .container {
-  display: inline-flex;
-  margin: 0 250px;
-  
+  display: flex;
+  justify-content: center;
 }
 
 .Advantages fieldset {
@@ -433,7 +438,7 @@ color: #ebcb80;
 }
 
 .Places ul li{
-  display: inline-block;
+  display:inline-block;
   margin:0 32px;
 }
 
@@ -517,7 +522,7 @@ color: #ebcb80;
 }
 
 /* -----------------------------------------------------------------------------------------------*\
-                                        # SECTION: Contact
+                                        # SECTION: Contact-us
 \*----------------------------------------------------------------------------------------------- */
 
 .Contact-us {
@@ -564,6 +569,7 @@ color: #ebcb80;
 .Contact-us .header-contact .phone {
   list-style-image: url("../images/icons/phone.png");
   list-style-position: outside;
+  width: 133px;
 }
 
 .Contact-us .main-contact {
@@ -609,7 +615,13 @@ color: #ebcb80;
 }
 
 .Contact-us .footer-contact .tittle {
-  font-size: 20px;
+  font-size: 18px;
+  width: 50px;
+} 
+
+.Contact-us .footer-contact .head {
+  width: 263px;
+  font-size: 16px;
 }
 
 .Contact-us .footer-contact img {
