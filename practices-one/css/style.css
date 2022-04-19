@@ -92,16 +92,27 @@ body {
 
 .header .header-body .header-title {
   font-size: 14px;
-  margin-bottom: 32px;
+  margin-bottom: 36px;
 }
 
-.header .header-body .header-title p {
+.header .header-body .header-title .top {
   font-weight: bold;
-  font-size: 34px;
+  font-size: 44px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.0363636em;
+  width: 778px;
 }
 
+.header .header-body .header-title .bot{
+  font-size: 16px;
+  margin-top: 21px;
+  margin-bottom: 36px;
+}
 .header .header-body .header-button {
-  margin-bottom: 30px;
+  margin-bottom: 29px;
 }
 
 .header .header-body .header-button .text {
@@ -235,15 +246,15 @@ body {
 .Choose-Your-Plan .container {
   display: flex;
   justify-content: center;
-  padding-top: 52px;
 }
 
 .Choose-Your-Plan fieldset {
   border: none;
   border-radius: 10px;
   padding: 20px 20px;
-  margin:50px 30px;
-  width: 280px;
+  margin: 52px 15px;
+  width: 360px;
+  height: 396px;
   text-align: center;
 }
  
@@ -258,11 +269,21 @@ body {
 .Choose-Your-Plan .price .dollar{
   margin-top: 20px;
   margin-right: 5px;
+  font-size: 24px;
+  line-height: 28px;
 }
 
 .Choose-Your-Plan .price .number {
-  font-size: 48px;
-  font-weight: bold;
+  font-size: 64px;
+  font-weight: 400;
+}
+
+.Choose-Your-Plan  .year{
+  margin-bottom: 30px;
+}
+
+.Choose-Your-Plan .container .head {
+  display: inline-block;
 }
 
 .Choose-Your-Plan .container button {
@@ -301,7 +322,13 @@ body {
 }
 
 .Choose-Your-Plan .purchase-silver h3, .purchase-platinum h3 {
+  font-family: 'lucida Grande';
   color:#ebcb80;
+}
+
+.Choose-Your-Plan h3 {
+  font-size: 18px;
+  line-height: 27px;
 }
 
 .Choose-Your-Plan .purchase-silver button, .purchase-platinum button {
